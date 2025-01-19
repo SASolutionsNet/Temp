@@ -1,37 +1,48 @@
 # .NET Core (backend) specific
+## Ignore build output directories
 bin/
 obj/
+
+## Ignore Visual Studio configuration files
 .vs/
 .vscode/
 .idea/
-# User-specific files
+
+## Ignore user-specific files
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
-# ASP.NET Core
+## Ignore ASP.NET Core specific files
 wwwroot/
+
+## Ignore sensitive configuration files
 appsettings*.json
+
+## Ignore database files
 *.db
 
 # Angular (frontend) specific
-# Node.js
+## Node.js dependencies
 node_modules/
 npm-debug.log
 yarn-error.log
 
-# Angular build output
+## Angular build output
 /dist/
 build/
 
-# Environment files
+## Environment files
 .env
 
-# IDE specific files
+## IDE specific files
 .vscode/
 .idea/
 
 # Operating system specific files
 .DS_Store
 Thumbs.db
+
+# Ignore other logs or system files
+*.log
