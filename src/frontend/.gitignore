@@ -1,0 +1,23 @@
+# Angular (frontend) specific
+## Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+## Angular build output
+/dist/
+build/
+
+## Environment files
+.env
+
+## IDE specific files
+.vscode/
+.idea/
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# Ignore other logs or system files
+*.log
